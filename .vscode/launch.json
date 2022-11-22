@@ -2,14 +2,29 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "openocd",
+      "request": "launch",
+      "type": "cortex-debug",
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": "Build",
+      "servertype": "openocd",
+      "executable": "build/project.elf",
+      "device": "STM32F303RE",
+      "svdFile": ".vscode/STM32F303.svd",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f3x.cfg"
+      ]
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/smuff/Desktop/project2",
-      "program": "/home/smuff/Desktop/project2/build/Debug/outDebug",
+      "cwd": "/home/smuff/Desktop/project",
+      "program": "/home/smuff/Desktop/project/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
