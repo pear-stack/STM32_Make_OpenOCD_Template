@@ -4,8 +4,8 @@
             "name": "linux-gcc-x64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/drivers/CMSIS/Device/ST/STM32F3xx/Include",
-                "${workspaceFolder}/drivers/CMSIS/Include"
+                "/home/pear/Documents/STM/STM32CubeF3-master/Drivers/CMSIS/Device/ST/STM32F3xx/Include",
+                "/home/pear/Documents/STM/STM32CubeF3-master/Drivers/CMSIS/Include"
             ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c99",

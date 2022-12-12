@@ -73,8 +73,8 @@ C_DEFS =  \
 # C includes
 C_INCLUDES =  \
 -Iinc \
--Idrivers/CMSIS/Device/ST/STM32F3xx/Include \
--Idrivers/CMSIS/Include
+-I/home/pear/Documents/STM/STM32CubeF3-master/Drivers//CMSIS/Device/ST/STM32F3xx/Include \
+-I/home/pear/Documents/STM/STM32CubeF3-master/Drivers//CMSIS/Include
 
 ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
 CFLAGS += $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
