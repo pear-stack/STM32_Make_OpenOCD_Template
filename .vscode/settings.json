@@ -1,43 +1,9 @@
 {
-  "C_Cpp_Runner.cCompilerPath": "/usr/bin/gcc",
   "cortex-debug.armToolchainPath": "/usr/bin",
-  "cortex-debug.openocdPath": "/usr/bin/openocd",
-  "C_Cpp_Runner.cppCompilerPath": "g++",
-  "C_Cpp_Runner.debuggerPath": "gdb",
-  "C_Cpp_Runner.cStandard": "c11",
-  "C_Cpp_Runner.cppStandard": "c++17",
-  "C_Cpp_Runner.msvcBatchPath": "",
-  "C_Cpp_Runner.useMsvc": false,
-  "C_Cpp_Runner.warnings": [
-    "-Wall",
-    "-Wextra",
-    "-Wpedantic",
-    "-Wshadow",
-    "-Wformat=2",
-    "-Wconversion",
-    "-Wnull-dereference"
-  ],
-  "C_Cpp_Runner.enableWarnings": true,
-  "C_Cpp_Runner.warningsAsError": false,
-  "C_Cpp_Runner.compilerArgs": [],
-  "C_Cpp_Runner.linkerArgs": [],
-  "C_Cpp_Runner.includePaths": [
-    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F3xx/Include",
-    "${workspaceFolder}/Drivers/CMSIS/Include"
-  ],
-  "C_Cpp_Runner.includeSearch": [
-    "*",
-    "**/*"
-  ],
-  "C_Cpp_Runner.excludeSearch": [
-    "**/build",
-    "**/build/**",
-    "**/.*",
-    "**/.*/**",
-    "**/.vscode",
-    "**/.vscode/**"
-  ],
+  "cortex-debug.gdbPath": "/usr/bin/gdb-multiarch",
   "files.associations": {
-    "stm32f303xe.h": "c"
+    "stm32f303xe.h": "c",
+    "stdio.h": "c",
+    "stm32f3xx_it.h": "c"
   }
 }
