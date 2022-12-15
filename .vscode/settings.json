@@ -3,6 +3,7 @@
   "cortex-debug.gdbPath": "/usr/bin/gdb-multiarch",
   "files.associations": {
     "stm32f303xe.h": "c",
+    "stm32f3xx.h": "c",
     "stdio.h": "c",
     "stm32f3xx_it.h": "c"
   }
